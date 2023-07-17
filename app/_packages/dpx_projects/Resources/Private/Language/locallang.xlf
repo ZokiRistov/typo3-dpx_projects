@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file source-language="en" datatype="plaintext" original="messages">
+        <header/>
+        <body>
+            <trans-unit id="plugin.dpx_projects_project_index">
+                <source>project list</source>
+            </trans-unit>
+            <trans-unit id="plugin.dpx_projects_project_show">
+                <source>project single view</source>
+            </trans-unit>
+            <trans-unit id="index.heading">
+                <source>projects</source>
+            </trans-unit>
+            <trans-unit id="dpx_projects_domain_model_project.uid">
+                <source>UID</source>
+            </trans-unit>
+            <trans-unit id="dpx_projects_domain_model_project.title">
+                <source>Title</source>
+            </trans-unit>
+            <trans-unit id="dpx_projects_domain_model_project.image">
+                <source>Image</source>
+            </trans-unit>
+            <trans-unit id="dpx_projects_domain_model_project.status">
+                <source>Status</source>
+            </trans-unit>
+            <trans-unit id="dpx_projects_domain_model_project.category">
+                <source>Category</source>
+            </trans-unit>
+            <trans-unit id="dpx_projects_domain_model_project.categories">
+                <source>Categories</source>
+            </trans-unit>
+            <trans-unit id="dpx_projects_domain_model_project.description">
+                <source>Description</source>
+            </trans-unit>
+            <trans-unit id="dpx_projects_domain_model_category.title">
+                <source>Category Title</source>
+            </trans-unit>
+            <trans-unit id="dpx_projects_domain_model_category.description">
+                <source>Category Description</source>
+            </trans-unit>
+            <trans-unit id="dpx_projects_domain_model_category.projects">
+                <source>Category projects</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

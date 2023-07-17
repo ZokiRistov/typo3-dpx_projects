@@ -1,0 +1,40 @@
+{
+    "name":"typo3start/dpx_projects",
+    "type":"typo3-cms-extension",
+    "description":"Example dpx_projects from the dpx_projects tutorial",
+    "homepage":"https://github.com/publicisbulgaria/typo3start/",
+    "license":"MIT",
+    "keywords":["typo3", "dpx_projects"],
+    "version": "1.0.0",
+    "support":{
+        "issues":"https://github.com/publicisbulgaria/typo3start/issues"
+    },
+    "require": {
+        "php": "^7.4 || ^8.0 || ^8.1 || ^8.2",
+        "typo3/cms-core":"^11.5",
+        "typo3/cms-fluid-styled-content":"^11.5"
+    },
+    "require-dev": {
+        "typo3/testing-framework": "^7.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "DpxProjects\\":"Classes/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "DpxProjects\\Tests\\":"Tests/"
+        }
+    },
+    "extra":{
+        "typo3/cms":{
+            "extension-key":"dpx_projects"
+        }
+    },
+    "config": {
+        "allow-plugins": true,
+        "vendor-dir": ".composer/vendor",
+        "bin-dir": ".composer/bin"
+    }
+}
